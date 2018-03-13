@@ -6,6 +6,10 @@ import Entities.EntityInterface;
 public class Creatures implements EntityInterface
 {
 
+	public Creatures() {
+		// TODO Auto-generated constructor stub
+	}
+	
     @Override
     public void update(double deltaTime)
     {
